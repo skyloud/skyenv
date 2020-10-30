@@ -1,12 +1,12 @@
 {
-  "name": "skyenv",
-  "version": "1.0.0",
+  "name": "@skyloud/skyenv",
+  "version": "0.1.0-alpha.0",
   "description": "Library for database env based system",
   "main": "src/index.js",
   "scripts": {
-    "start:dev": "nodemon",
     "build": "tsc",
-    "test": "jest --config jestconfig.json"
+    "test": "jest --config jestconfig.json",
+    "test:watch": "jest --config jestconfig.json --watch"
   },
   "repository": {
     "type": "git",
@@ -24,23 +24,19 @@
   },
   "homepage": "https://github.com/skyloud/skyenv#readme",
   "dependencies": {
-    "axios": "^0.19.2",
-    "mongodb": "^3.6.0",
-    "openpgp": "^4.10.7"
+    "axios": "^0.21.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.8",
-    "@types/mongodb": "^3.5.25",
-    "@types/openpgp": "^4.4.12",
-    "@typescript-eslint/eslint-plugin": "^3.7.1",
-    "@typescript-eslint/parser": "^3.7.1",
-    "eslint": "^7.6.0",
-    "eslint-plugin-jest": "^23.20.0",
-    "jest": "^26.2.2",
-    "prettier": "^2.0.5",
-    "ts-jest": "^26.1.4",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "@types/jest": "^26.0.15",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
   },
   "files": [
     "dist/**/*"
