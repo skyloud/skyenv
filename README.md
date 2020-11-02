@@ -4,6 +4,16 @@ Welcome on this alpha project about powerful app environment sharing system. The
 
 By using this library, you give to your app a new way to create dynamic app environment on front-end or backend projects using clustered and auto-scalable api.
 
+# Installation
+
+Skyenv is on npm package registry. You can install the dependency with this command :
+
+```bash
+$ npm install --save @skyloud/skyenv
+```
+
+:warning: **Warning:** This is a alpha package. Do not use it in production environment.
+
 # How to setup
 
 First, you have to register your key/value pairs on this app : https://vault.skyloud.net
